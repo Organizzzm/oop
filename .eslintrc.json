@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "google"],
+  "plugins": [
+    "json"
+  ],
+  "rules": {
+    "require-jsdoc": "off"
+  }
+}
